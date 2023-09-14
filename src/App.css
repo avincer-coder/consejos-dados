@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root{
+    background-color: rgb(31, 38, 49);
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijo_de_root{
+    border-radius: 15px;
+    background-color: rgb(49, 58, 73);
+    height: 330px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-bottom: -50px;
+}
+
+.contenedor_dado{
+    background-color: rgb(86, 255, 177);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_dado:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 136); /* Cambiar el color de fondo al pasar el cursor */
+    box-shadow: 1px 1px 50px rgb(0, 255, 136); /* Agregar una sombra para crear un efecto de brillo */
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    color: rgb(86, 255, 177);
+    margin: 40px 0px 20px ;
+}
+
+h1{
+    width: 450px;
+    text-align: center;
+    color: rgb(173, 185, 199);
+    margin: 10px 0px 30px;
+    font-size: 28px;
+}
+
+.line{
+    margin: 10px 0px 45px;
+}
